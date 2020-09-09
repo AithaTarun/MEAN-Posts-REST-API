@@ -57,7 +57,7 @@ app.use
   '/images',
   express.static
   (
-    path.join('backend/images')
+    path.join('images')
   )
 )
 

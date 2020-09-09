@@ -20,7 +20,7 @@ const storage = multer.diskStorage
         error = null;
       }
 
-      callback(error,"backend/images");
+      callback(error,"images");
     },
     filename : (request,file,callback)=>
     {
